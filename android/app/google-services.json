@@ -1,0 +1,42 @@
+{
+    "project_info": {
+      "project_number": "241866506708",
+      "firebase_url": "https://ktmobile-197103.firebaseio.com",
+      "project_id": "ktmobile-197103",
+      "storage_bucket": "ktmobile-197103.appspot.com"
+    },
+    "client": [
+      {
+        "client_info": {
+          "mobilesdk_app_id": "1:241866506708:android:1d998300551a0981",
+          "android_client_info": {
+            "package_name": "com.myapp"
+          }
+        },
+        "oauth_client": [
+          {
+            "client_id": "241866506708-5tj3pbq9qve5g1942njs0tj5b1pfvnh8.apps.googleusercontent.com",
+            "client_type": 3
+          }
+        ],
+        "api_key": [
+          {
+            "current_key": "AIzaSyB5YayQ9arn6RJeLmR3gEODjxmxjGoZCpg"
+          }
+        ],
+        "services": {
+          "analytics_service": {
+            "status": 1
+          },
+          "appinvite_service": {
+            "status": 1,
+            "other_platform_oauth_client": []
+          },
+          "ads_service": {
+            "status": 2
+          }
+        }
+      }
+    ],
+    "configuration_version": "1"
+  }
