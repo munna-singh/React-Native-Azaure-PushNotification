@@ -57,7 +57,7 @@ If you have a requirement to send the notification to only targeted devices, the
 In current package, i did not see a way to find the FCM and registration id after the app/device is registered with FCM. We need to write
 custom code to handle and return these details in react-native code. To do so, 
     - Open the app in VS code and navigate to "..\myapp\android\app\src\main\java\com\myapp\MainActivity.java"
-    - In MainActivity.java, paste below line of code
+    - In MainActivity.java, paste below lines
 
         @Override
         protected ReactActivityDelegate createReactActivityDelegate() {
@@ -83,13 +83,32 @@ custom code to handle and return these details in react-native code. To do so,
                 }
             };
         }
+**|**
 
-     - Open "..\myapp\App.js" and paste below line of code. This code will help you in receiving all required details which you are getting into  notification message
+Open "..\myapp\App.js" and paste below line of code. This code will help you in receiving all required details which you are getting into  notification message
 
          componentWillMount = () => {
-         alert(JSON.stringify(this.props));
+            alert(JSON.stringify(this.props));
          } 
 
-    That's it. Do whatever you want to do after receiving the notification message here.
+**|**
+That's it. Do whatever you want to do after receiving the notification message here.
     
    
+**Sampe JSON message formats**
+```
+{
+	"data": {
+		"message": "Notification Hub test notification",
+		"id": 123456,
+		"title": "hi bro",
+		"bigText": "12:21sdf ds sdfsdf sdfsda fds fsdf ds fsdf dsf dsf dsf sdf sdf sdf dsf sdf sdf dsf sdf sdaf sadf sdaf sda",
+		"ticker": "Tickerrr",
+		"group": "group hi group",
+		"subText": "what is subtext?",
+		"number": 12345,
+		"actions": ["Read", "Dismiss"],
+    "color":"red"
+	}
+}
+```
