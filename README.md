@@ -7,7 +7,7 @@ This example will show how to use Azure with React Native for implementing push 
   - Android studio installed and configured [here](https://developer.android.com/studio/install.html)
   - Visual studio code. One of the brilliant editor we have now [VS Code](https://code.visualstudio.com/docs/setup/windows)
   - React native installed and configured [here](https://shift.infinite.red/getting-started-with-react-native-development-on-windows-90d85a72ae65)
-  - NPM package installed and configured for push notification [here](https://github.com/CatalystCode/react-native-azurenotificationhub)
+  - NPM package installed and configured for push notification [here](https://github.com/CatalystCode/react-native-azurenotificationhub) or [here]https://github.com/zo0r/react-native-push-notification
   - [Firebase](https://console.firebase.google.com/) and [Azure](https://portal.azure.com) access and configured for handshaking between these two components.
   
 
