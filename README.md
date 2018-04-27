@@ -106,7 +106,7 @@ That's it. Do whatever you want to do after receiving the notification message h
 		"ticker": "Tickerrr",
 		"group": "group hi group",
 		"subText": "what is subtext?",
-		"number": 12345,
+		"actionType": 12345,
 		"actions": ["Read", "Dismiss"],
     "color":"red"
 	}
